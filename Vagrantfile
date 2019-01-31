@@ -70,7 +70,7 @@ composer_packages     = [        # List any global Composer packages that you wa
 public_folder         = "/vagrant"
 
 laravel_root_folder   = "/vagrant/laravel" # Where to install Laravel. Will `composer install` if a composer.json file exists
-laravel_version       = "latest-stable" # If you need a specific version of Laravel, set it here
+laravel_version       = "5.4.*" # If you need a specific version of Laravel, set it here
 symfony_root_folder   = "/vagrant/symfony" # Where to install Symfony.
 
 nodejs_version        = "latest"   # By default "latest" will equal the latest stable version
